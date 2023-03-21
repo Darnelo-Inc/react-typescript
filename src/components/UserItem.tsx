@@ -3,11 +3,13 @@ import { IUser } from "../types/types"
 
 interface UserItemProps {
   user: IUser
+  onClick: (user: IUser) => void
 }
 
-const UserItem: FC<UserItemProps> = ({ user }) => {
+const UserItem: FC<UserItemProps> = ({ user, onClick }) => {
   return (
     <div
+      onClick={() => onClick(user)}
       style={{
         margin: "8px",
         padding: "10px",

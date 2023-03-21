@@ -14,7 +14,7 @@ const TodoItem: FC<TodoItemProps> = ({ todo }) => {
         border: "1px solid #333",
       }}
     >
-      <input type="checkbox" checked={todo.completed} />
+      <input type="checkbox" checked={todo.completed} onChange={() => {}} />
       <div>
         {todo.id}. {todo.title}
       </div>
