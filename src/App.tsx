@@ -3,6 +3,7 @@ import TodoItemPage from "./pages/TodoItemPage"
 import TodosPage from "./pages/TodosPage"
 import UserItemPage from "./pages/UserItemPage"
 import UsersPage from "./pages/UsersPage"
+import EventsExample from "./components/EventsExample"
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path={"/todos/:id"} element={<TodoItemPage />} />
       </Routes>
     </BrowserRouter>
+    // <EventsExample />
   )
 }
 

@@ -37,7 +37,7 @@ const EventsExample: FC = () => {
 
   return (
     <div>
-      <input
+      {/* <input
         type="text"
         value={value}
         onChange={changeHandler}
@@ -48,7 +48,7 @@ const EventsExample: FC = () => {
         type="text"
         placeholder="Неуправляемый инпут"
       ></input>
-      <button onClick={clickHandler}>Log values</button>
+      <button onClick={clickHandler}>Log values</button> */}
 
       <div
         draggable
